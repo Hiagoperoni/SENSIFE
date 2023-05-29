@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: rgba(0, 17, 255, 0.733);
+    border-bottom: 1px solid black;
+}
+
+.logoSensiHeader {
+    width: 4vw;
+}
+
+.headerButton {
+    background-color: transparent;
+    width: 10vw;
+    border: transparent;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}

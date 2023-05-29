@@ -1,0 +1,46 @@
+.cardHomePage {
+    background-color: white;
+    margin-top: 2%;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 10px;
+}
+
+.homeTitle {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(253, 253, 77, 0.8);
+    margin-bottom: 2%;
+}
+
+.dispHomePage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    width: 80%;
+    height: fit-content;
+    margin-top: 5%;
+  }
+
+  .homePlantaComp {
+    border: 1px solid black;
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(179, 179, 179);
+    background-color: rgb(92, 144, 179, 0.5);
+    color: black;
+    font-size: larger;
+    cursor: pointer;
+  }

@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: rgb(92, 144, 179, 0.5);
+  height: 100%;
+}
+
+.geralProd {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.freezerProd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 15vh;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 212);
+}
+
+.dataFreezer {
+  display: flex;
+  width: auto;
+  align-items: center;
+  padding: 5%;
+}
+
+.dispFreezer {
+  display: flex;
+  justify-content: flex-end;
+}

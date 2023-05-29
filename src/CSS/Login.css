@@ -1,0 +1,50 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 144, 179, 0.5);
+    height: 100vh;
+    width: 100vw;
+}
+
+.cardLogin {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logoSensi {
+    width: 10vw;
+    height: 20vh;
+    margin: 5%;
+}
+
+.input {
+    width: 15vw;
+    height: 25px;
+    margin: 2%;
+    text-align: center;
+    border: transparent;
+}
+
+.inputsLoginDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.loginButton {
+    width: 15vw;
+    height: 25px;
+    background-color: rgb(92, 144, 179, 0.5);
+    border: transparent;
+    border-radius:5px;
+    margin: 2%;
+    cursor: pointer;
+}

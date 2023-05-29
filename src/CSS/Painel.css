@@ -1,0 +1,83 @@
+.cardPainelPage {
+    background-color: white;
+    margin-top: 2%;
+    width: 80vw;
+    height: fit-content;
+    padding-bottom: 2vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 10px;
+}
+
+.uEsquerda {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.uBaixo {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.uDireita {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.imgConfig {
+    width: 5%;
+    height: 10%;
+    margin-bottom: 0;
+}
+
+.painelTitle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(253, 253, 77, 0.8);
+    margin-bottom: 2%;
+}
+
+.imgAlerta {
+    width: 20%;
+    height: 50%;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+  
+    50% {
+        opacity: 0.7;
+    }
+  
+    100% {
+        opacity: 0;
+    }
+  }
+
+.divConfig {
+    display: flex;
+    justify-content: flex-end;
+    width: 5;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+.invisible {
+    color: rgb(253, 253, 77, 0.8);
+}

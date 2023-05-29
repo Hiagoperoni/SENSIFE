@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import HeaderComp from '../Components/HeaderComp';
 import FreezerConfigComp from '../Components/FreezerConfig';
 import { useParams } from 'react-router-dom';
-import '../../../CSS/Config.css';
+import '../CSS/Config.css';
 
 function Config() {
   const idCliente = 1;

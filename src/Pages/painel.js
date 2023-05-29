@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import HeaderComp from '../Components/HeaderComp.js';
 import imgConfig from '../Imagens/Configs.png'
 import FreezerComp from '../Components/FreezerComp.js';
-import '../../../CSS/Painel.css';
+import '../CSS/Painel.css';
 
 function Painel() {
   const navigate = useNavigate();

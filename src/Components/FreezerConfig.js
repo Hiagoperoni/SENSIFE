@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getConfigFreezer, postConfigFreezer } from '../services/request';
-import '../../../CSS/Config.css';
+import '../CSS/Config.css';
 
 function FreezerConfigComp(props) {
   const { clienteId, freezerId } = props;

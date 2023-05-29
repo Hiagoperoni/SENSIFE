@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../../CSS/Header.css';
+import '../CSS/Header.css';
 import logoSensi from '../Imagens/LogoSENSI.png';
 
 function HeaderComp() {

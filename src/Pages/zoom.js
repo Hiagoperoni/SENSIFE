@@ -3,7 +3,7 @@ import HeaderComp from '../Components/HeaderComp';
 import { useParams } from 'react-router-dom';
 import { getFreezer, postStatusFreezer } from '../services/request';
 import alertaImg from '../Imagens/Alerta.png'
-import '../../../CSS/Zoom.css';
+import '../CSS/Zoom.css';
 
 function ZoomProd(props) {
   const { prod } = useParams();

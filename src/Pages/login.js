@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../../CSS/Login.css';
+import '../CSS/Login.css';
 import LogoSENSI from '../Imagens/LogoSENSI.png'
 import { useNavigate } from 'react-router-dom';
 import { loginUser } from '../services/request';

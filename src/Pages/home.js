@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import HeaderComp from '../Components/HeaderComp';
 import PlantaComp from '../Components/PlantaComp';
-import '../../../CSS/Home.css';
+import '../CSS/Home.css';
 
 function Home() {
   const qntFreezer = 30;

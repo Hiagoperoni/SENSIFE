@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../../CSS/Home.css';
+import '../CSS/Home.css';
 
 function PlantaComp(props) {
   const { id } = props;

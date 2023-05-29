@@ -1,10 +1,10 @@
 import '../src/CSS/App.css';
 import { Route, Routes } from 'react-router-dom';
-import Login from './app/frontEnd/Pages/login';
-import Home from './app/frontEnd/Pages/home';
-import ZoomProd from './app/frontEnd/Pages/zoom';
-import Config from './app/frontEnd/Pages/config';
-import Painel from './app/frontEnd/Pages/painel';
+import Login from './Pages/login';
+import Home from './Pages/home';
+import ZoomProd from './Pages/zoom';
+import Config from './Pages/config';
+import Painel from './Pages/painel';
 
 function App() {
 

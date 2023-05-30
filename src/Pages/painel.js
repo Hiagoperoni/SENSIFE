@@ -10,7 +10,7 @@ function Painel() {
   const idCliente = 1;
   const qntFreezers = 30;
   const components = [];
-  const [startIndex, setStartIndex] = useState(0);
+  const [_startIndex, setStartIndex] = useState(0);
   const { id } = useParams();
 
   const goToConfig = () => {

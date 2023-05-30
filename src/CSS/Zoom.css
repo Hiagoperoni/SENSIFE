@@ -49,7 +49,7 @@
 .divZoomErros {
     display: flex;
     height: 10vh;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .statusErrosDiv {
